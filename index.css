@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fafafa;
+}
+
+nav.Navbar {
+  margin: 0;
+  background: black;
+  font-size: 17px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav.Navbar .Navbar__Brand {
+  font-weight: bold;
+}
+
+nav.Navbar .Navbar__Links ul {
+  list-style: none;
+}
+
+nav.Navbar .Navbar__Links ul li {
+  display: inline;
+  margin: 0.2em;
+}
